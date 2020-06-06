@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NATS", "NATS\NATS.csproj", "{4C6B9D3E-5C24-47D9-80CA-289ACBDD0C00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NATS_Web", "NATS_Web\NATS_Web.csproj", "{3CD07ADF-C2B9-4E64-9B4E-C3979A675781}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{728EF4E6-B0FC-4FFB-BB55-F483424D741E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C6B9D3E-5C24-47D9-80CA-289ACBDD0C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6B9D3E-5C24-47D9-80CA-289ACBDD0C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6B9D3E-5C24-47D9-80CA-289ACBDD0C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6B9D3E-5C24-47D9-80CA-289ACBDD0C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD07ADF-C2B9-4E64-9B4E-C3979A675781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD07ADF-C2B9-4E64-9B4E-C3979A675781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD07ADF-C2B9-4E64-9B4E-C3979A675781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD07ADF-C2B9-4E64-9B4E-C3979A675781}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E87441E1-01D3-4EC3-A584-408ED2134A6A}
+	EndGlobalSection
+EndGlobal
