@@ -6,14 +6,6 @@
 trigger:
 - master
 
-stages:
- - stage: Build
-   jobs:
-   - job: Build
-
- - stage: Deploy
-   jobs:
-   - job: Deploy
  
  pool:
   vmImage: 'windows-latest'
