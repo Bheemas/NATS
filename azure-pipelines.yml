@@ -11,7 +11,11 @@ stages:
    jobs:
    - job: Build
 
-pool:
+ - stage: Deploy
+   jobs:
+   - job: Deploy
+ 
+ pool:
   vmImage: 'windows-latest'
 
 variables:
